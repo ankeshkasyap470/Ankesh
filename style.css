@@ -1,0 +1,80 @@
+/*
+% = parent dimensions
+rem => root element [html] font-size
+em => parent element font-size
+vh => viewport height
+vw => viewport width
+vmin => viewport min [height or width]
+vmax => viewport max [height or width]
+px => pixels
+% = parent dimensions
+rem => root element [html] font-size
+
+
+
+*/
+
+
+/* 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.parent{
+    height: 200px;
+    width: 200px;
+    background-color: orange ;
+} */
+
+/*
+600px for mobile screens
+768px for tablets
+1024px for laptops
+1200px for desktops
+1440px for large desktops
+1600px for extra large desktops
+1920px for 2k desktops
+2560px for 4k desktops
+3200px for 8k desktops
+3840px for 16k desktops
+*/
+
+
+/*
+min-width means if the size of the screen is less than the given value than they will change their color as given instruction
+*/
+
+/* @media (max-width: 600px) {
+    .parent{
+        background-color: red;
+        width: 600px;
+        height: 600px;
+    }
+} */
+/* 
+
+max=width means if the size of the screen is more than the given value than they will change their color as given instruction
+*/
+
+/* @media (max-width: 600px) {
+    .parent{
+        background-color: green;
+    }
+} */
+
+
+*{
+    background-color: black;
+}
+h2{
+    
+    color: rgb(201, 140, 25);
+}
